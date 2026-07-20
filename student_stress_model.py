@@ -65,6 +65,3 @@ if st.button("Predict"):
         st.success("Prediction: High Stress")
     else:
         st.success("Prediction: Low Stress")
-
-    st.write(f"Low Stress Probability: {probability[0][0]*100:.2f}%")
-    st.write(f"High Stress Probability: {probability[0][1]*100:.2f}%")
